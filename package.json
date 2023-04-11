@@ -1,0 +1,25 @@
+{
+  "name": "gpt-cpp",
+  "version": "1.0.0",
+  "description": "C++ Node.js Addon example",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp configure build -m",
+    "clean": "node-gyp clean",
+    "rebuild": "node-gyp rebuild",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node-addon",
+    "c++"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "nan": "^2.17.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^9.3.1"
+  }
+}
